@@ -36,3 +36,7 @@ Getting Started
 Before we begin, please ensure that you have the required software installed on your laptop. Detailed installation instructions and configuration files will be provided, but a basic familiarity with Linux command-line operations will be beneficial.
 
 Let’s embark on this journey to master Apache Spark and unlock the full potential of distributed data processing!
+
+<div align="center">
+	<img src="https://blogs.qub.ac.uk/relax-dn/wp-content/uploads/sites/328/2023/03/cropped-logo-230x230.jpg">
+</div>

@@ -1,7 +1,8 @@
 # Workshop Introduction: Hands-On with Apache Spark on YARN
 
-Welcome to the hands-on workshop on Apache Spark, designed specifically for PhD candidates in Computer Science. This workshop will delve into the practical aspects of setting up and running Apache Spark on a YARN-managed cluster using VirtualBox VMs. With the increasing relevance of big data processing in both academic research and industry applications, proficiency in tools like Apache Spark is invaluable. By the end of this workshop, you will have a solid understanding of the Spark ecosystem, and hands-on experience in deploying and managing a Spark cluster.
-Why Apache Spark?
+Welcome to the hands-on workshop on Apache Spark, designed specifically for designed specifically for participants of the RELAX Doctoral Network. This workshop will delve into the practical aspects of setting up and running Apache Spark on a YARN-managed cluster using VirtualBox VMs. With the increasing relevance of big data processing in both academic research and industry applications, proficiency in tools like Apache Spark is invaluable. By the end of this workshop, you will have a solid understanding of the Spark ecosystem, and hands-on experience in deploying and managing a Spark cluster.
+
+## Why Apache Spark?
 
 Apache Spark has emerged as a leading framework for large-scale data processing, owing to its versatility, speed, and ease of use. It provides powerful abstractions for distributed data processing, making it a go-to tool for handling complex computational tasks over large datasets. Unlike its predecessor, Apache Hadoop MapReduce, Spark offers in-memory processing, which significantly boosts performance for iterative algorithms common in machine learning and data analysis.
 
@@ -35,3 +36,7 @@ Getting Started
 Before we begin, please ensure that you have the required software installed on your laptop. Detailed installation instructions and configuration files will be provided, but a basic familiarity with Linux command-line operations will be beneficial.
 
 Let’s embark on this journey to master Apache Spark and unlock the full potential of distributed data processing!
+
+<div align="center">
+	<img src="https://blogs.qub.ac.uk/relax-dn/wp-content/uploads/sites/328/2023/03/cropped-logo-230x230.jpg">
+</div>

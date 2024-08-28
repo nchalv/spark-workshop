@@ -1,6 +1,6 @@
 # Workshop Introduction: Hands-On with Apache Spark on YARN
 
-Welcome to the hands-on workshop on Apache Spark, designed specifically for designed specifically for participants of the RELAX Doctoral Network. This workshop will delve into the practical aspects of setting up and running Apache Spark on a YARN-managed cluster using VirtualBox VMs. With the increasing relevance of big data processing in both academic research and industry applications, proficiency in tools like Apache Spark is invaluable. By the end of this workshop, you will have a solid understanding of the Spark ecosystem, and hands-on experience in deploying and managing a Spark cluster.
+Welcome to the hands-on workshop on Apache Spark, designed for the participants of the RELAX Doctoral Network. This workshop will delve into the theoretical and architectural concepts upon which Apache Spark has been built, as well as the practical aspect of setting up and running Apache Spark on a YARN-managed cluster using VirtualBox VMs. With the increasing relevance of big data processing in both academic research and industry applications, proficiency in tools like Apache Spark is invaluable. By the end of this workshop, you will have a solid understanding of the Spark ecosystem, and hands-on experience in deploying and managing a Spark cluster.
 
 ## Why Apache Spark?
 
@@ -8,14 +8,15 @@ Apache Spark has emerged as a leading framework for large-scale data processing,
 
 For researchers and data scientists, Spark’s support for various programming languages (Scala, Python, Java, R) and its rich ecosystem (including libraries like MLlib for machine learning, GraphX for graph processing, and Spark SQL for structured data) make it an ideal choice for a wide range of data-driven tasks.
 ## Workshop Objectives
+The first part of this hands-on session will focus on providing participants with all necessary background information on the basics of Apache Spark and its ecosystem. Through dedicated guides and examples, participants can grasp the most important elements of the popular framework. Additional information on how to use HDFS and an introduction to programming in Spark is given. Participants are also encouraged to create and configure a small cluster of virtual machines to execute examples and experiment with different configurations in a distributed environment. Specifically, we will cover:
 
-This workshop will guide you through the complete setup and configuration of an Apache Spark environment on a commodity laptop. Specifically, we will cover:
-
- -  Setting Up Virtual Machines: Using VirtualBox, we will create a cluster of virtual machines running Ubuntu 22.04.4.
+ -  Setting Up Virtual Machines: Using VirtualBox, we will create a small cluster of virtual machines running Ubuntu 22.04.4.
  -  Installing and Configuring Apache Hadoop: Understanding the fundamentals of Hadoop's distributed file system (HDFS) and resource management using YARN (Yet Another Resource Negotiator).
  -  Installing and Configuring Apache Spark: Deploying Spark on top of YARN and configuring it for efficient distributed computing.
  -  Running Spark Jobs on YARN: Submitting and managing Spark jobs in a multi-node environment, exploring how Spark leverages YARN for resource allocation and job scheduling.
  -  Optimizing and Debugging: Techniques for optimizing Spark jobs and debugging common issues encountered in distributed environments.
+
+The second part of the session will focus on participants takin the lead and using their newly acquired skills to implement queries using real datasets.
 
 ## Technical Setup
 
@@ -27,6 +28,7 @@ The software stack for this workshop is carefully selected to balance performanc
   - **Apache Spark 3.5.2**: The latest version of Spark, offering cutting-edge features and performance improvements.
 
 ## What to Expect
+
 
 Throughout the workshop, you will engage in hands-on exercises designed to reinforce key concepts and provide practical experience. You will gain insights into the inner workings of Spark, from data partitioning and task scheduling to memory management and fault tolerance. By the end of this session, you will not only be able to set up and manage a Spark cluster but also understand how to leverage Spark's capabilities for advanced data processing tasks.
 

@@ -8,7 +8,9 @@ Apache Spark has emerged as a leading framework for large-scale data processing,
 
 For researchers and data scientists, Spark’s support for various programming languages (Scala, Python, Java, R) and its rich ecosystem (including libraries like MLlib for machine learning, GraphX for graph processing, and Spark SQL for structured data) make it an ideal choice for a wide range of data-driven tasks.
 ## Workshop Objectives
-The first part of this hands-on session will focus on providing participants with all necessary background information on the basics of Apache Spark and its ecosystem. Through dedicated guides and examples, participants can grasp the most important elements of the popular framework. Additional information on how to use HDFS and an introduction to programming in Spark is given. Participants are also encouraged to create and configure a small cluster of virtual machines to execute examples and experiment with different configurations in a distributed environment. Specifically, we will cover:
+The first part of this hands-on session will focus on providing participants with all necessary background information on the basics of Apache Spark and its ecosystem. Through dedicated guides and examples, participants can grasp the most important elements of the popular framework. Additional information on how to use HDFS and an introduction to programming in Spark is given. As a prerequisite and in order to be able to experiment in their own isolated working environment, participants are also encouraged to create and configure a small cluster of virtual machines. The second part of the session will focus on participants taking the lead and using their newly acquired skills to implement queries using real datasets.
+
+Specifically, we will cover:
 
  -  Setting Up Virtual Machines: Using VirtualBox, we will create a small cluster of virtual machines running Ubuntu 22.04.4.
  -  Installing and Configuring Apache Hadoop: Understanding the fundamentals of Hadoop's distributed file system (HDFS) and resource management using YARN (Yet Another Resource Negotiator).
@@ -16,7 +18,7 @@ The first part of this hands-on session will focus on providing participants wit
  -  Running Spark Jobs on YARN: Submitting and managing Spark jobs in a multi-node environment, exploring how Spark leverages YARN for resource allocation and job scheduling.
  -  Optimizing and Debugging: Techniques for optimizing Spark jobs and debugging common issues encountered in distributed environments.
 
-The second part of the session will focus on participants takin the lead and using their newly acquired skills to implement queries using real datasets.
+
 
 ## Technical Setup
 

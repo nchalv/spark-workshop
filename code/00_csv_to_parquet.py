@@ -16,4 +16,4 @@ df = df.withColumn("Date Rptd", to_date("Date Rptd", date_format)) \
     .withColumn("Vict Age", col("Vict Age").cast(IntegerType()))
 # Write DataFrame to Parquet
 df.write \
-    .parquet("hdfs://controller:54310/home/ubuntu/data/la_crime_data/")
+    .parquet("hdfs://controller:54310/home/ubuntu/data/la_crime_data/parquet")

@@ -7,7 +7,7 @@ spark = SparkSession.builder \
     .getOrCreate()
 
 path = "hdfs://controller:54310/home/ubuntu/data/la_crime_data/CrimeData_10-19.csv"
-df = spark.read.option("header", "true").csv(path)
+df = spark.read.csv(path, header=True, inferSchema=True)
 date_format = "MM/dd/yyyy hh:mm:ss a"
 df = df.withColumn("Date Rptd", to_date("Date Rptd", date_format)) \
     .withColumn("DATE OCC", to_date("DATE OCC", date_format)) \

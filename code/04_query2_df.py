@@ -16,12 +16,11 @@ def time_to_part_of_day(x):
 time_to_part_of_day_udf = udf(time_to_part_of_day, StringType())
 
 spark = SparkSession.builder \
-    .appName("CCrimeDataAnalytics - Query 2 - DF - parquet") \
+    .appName("CrimeDataAnalytics - Query 2 - DF - parquet") \
     .getOrCreate()
 
 # Read the files
 directory_path = "hdfs://controller:54310/user/ubuntu/data/la_crime_data/parquet"
-# Read the files
 df = spark.read.parquet(directory_path)
 
 part_of_day = df.select('TIME OCC') \

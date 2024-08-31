@@ -33,7 +33,7 @@ Although it is preferable that this part will have already been completed by the
 #### [Apache Spark](https://github.com/nchalv/spark-workshop/blob/main/Apache%20Spark.pdf)
 #### [01. Basic Command-Line Operations on HDFS](https://github.com/nchalv/spark-workshop/blob/main/01.%20Basic%20HDFS%20operations.md)
 #### [02. Running Spark Applications and Command-Line Configurations](https://github.com/nchalv/spark-workshop/blob/main/02.%20Running%20Spark%20Applications%20and%20Command-Line%20Configurations.md)
-#### [03. [Introduction to Programming in Spark using Python](https://github.com/nchalv/spark-workshop/blob/main/03.%20Introduction%20to%20Programming%20in%20Spark%20using%20Python.md)
+#### [03. Introduction to Programming in Spark using Python](https://github.com/nchalv/spark-workshop/blob/main/03.%20Introduction%20to%20Programming%20in%20Spark%20using%20Python.md)
 The first part of this hands-on session will focus on providing participants with all necessary background information on the basics of Apache Spark and the Hadoop ecosystem. Through dedicated guides and examples, participants can grasp the most important elements of the popular framework. Additional information on how to use HDFS and an introduction to programming in Spark is given. The second part of the session will focus on participants taking the lead and using their newly acquired skills to implement queries using real datasets.
 
 

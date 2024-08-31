@@ -1,0 +1,4 @@
+https://data.lacity.org/api/views/63jg-8b9z/rows.csv?accessType=DOWNLOAD
+download with:
+
+wget https://data.lacity.org/api/views/63jg-8b9z/rows.csv?accessType=DOWNLOAD -O CrimeData_10-19.csv
